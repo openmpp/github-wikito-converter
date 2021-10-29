@@ -21,11 +21,15 @@ Note: The patched-QT version of `wkhtmltopdf` is required for pdf export. Withou
 npm install -g github-wikito-converter
 ```
 
-## Local version
+## Build local version
 
-Download `github-wikito-converter` sources, open `termial` at the root the folder, and run:
+Open `termial`, clone sources from GitHub, build and install (globally):
 
-```bash
+```
+git clone https://github.com/yakivmospan/github-wikito-converter.git
+cd github-wikito-converter
+npm install
+
 npm run build-and-install-g
 ```
 
